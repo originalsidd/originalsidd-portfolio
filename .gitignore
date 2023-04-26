@@ -1,0 +1,9 @@
+
+/node_modules
+/.next/
+.vercel
+/build
+/out/
+/coverage
+logs
+.log
