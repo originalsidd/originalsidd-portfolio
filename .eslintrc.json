@@ -9,12 +9,6 @@
                 "varsIgnorePattern": "^_"
             }
         ],
-        "react/no-unescaped-entities": "off",
-        "@next/next/no-page-custom-font": "off",
-        "react/jsx-key": "off",
-        "react-hooks/exhaustive-deps": "off",
-        "react/jsx-no-target-blank": "off",
-        "react/jsx-no-bind": "off",
-        "react/display-name": "off"
+        "react/display-name": 0
     }
 }
