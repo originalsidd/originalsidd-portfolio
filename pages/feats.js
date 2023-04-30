@@ -3,8 +3,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { FeatGridItem } from '../components/grid-item'
 
-import P from '../components/paragraph'
-
 const Feat = () => (
   <Layout title="Feat">
     <Container>

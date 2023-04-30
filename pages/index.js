@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import Paragraph from '../components/paragraph'
 import { SkillsSection, SkillsType } from '../components/skills'
 import Layout from '../components/layouts/article'

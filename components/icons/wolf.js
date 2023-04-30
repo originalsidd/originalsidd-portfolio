@@ -7,7 +7,7 @@ const WolfIcon = props => {
       height={20}
       className="w-5 inline-block transition-transform group-hover:rotate-[20deg]"
       fill="currentColor"
-      //   {...props}
+      {...props}
       viewBox="0 0 64.000000 64.000000"
       preserveAspectRatio="xMidYMid meet"
     >
