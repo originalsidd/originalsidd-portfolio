@@ -41,13 +41,13 @@ const OldWeb = () => (
         </ListItem>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/originalsidd/Website">
+          <Link href="https://github.com/originalsidd/website">
             GitHub link
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Live</Meta>
-          <Link href="https://originalsidd.github.io/Website">
+          <Link href="https://originalsidd.github.io/website">
             Visit old portfolio
           </Link>
         </ListItem>
