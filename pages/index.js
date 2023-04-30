@@ -68,6 +68,8 @@ const Page = () => {
               borderWidth={2}
               borderStyle="solid"
               maxWidth="100px"
+              width="auto"
+              height="auto"
               display="inline-block"
               borderRadius="full"
               src="/images/sidd.jpg"

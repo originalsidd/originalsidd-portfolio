@@ -28,7 +28,6 @@ const OgDude = () => {
     }
   }, [])
 
-  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     const { current: container } = refContainer
     if (container) {
