@@ -6,7 +6,6 @@ import {
   Heading,
   Image,
   Link,
-  SimpleGrid,
   List,
   ListItem,
   useColorModeValue
