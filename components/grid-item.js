@@ -46,7 +46,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
   </Box>
 )
 
-export const ExpGridItem = ({ children, title, time, thumbnail }) => (
+export const ExpGridItem = ({ children, title, time, thumbnail, role }) => (
   <Box display="flex" flexDirection="row" mb={-4}>
     <Box>
       <Image
@@ -59,8 +59,11 @@ export const ExpGridItem = ({ children, title, time, thumbnail }) => (
     </Box>
     <Box w="100%" display="flex" flexDirection="column" ml={5}>
       <Box display="flex" flexDirection="column" w="100%">
-        <Text fontWeight="bold" fontSize={20}>
+        <Text fontWeight="bold" fontSize={20} lineHeight={1}>
           {title}
+        </Text>
+        <Text fontWeight="medium" fontSize={18}>
+          {role}
         </Text>
         <Text fontSize={14} fontStyle="italic">
           {time}

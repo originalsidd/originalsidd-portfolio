@@ -20,12 +20,13 @@ const Experience = () => (
           <ExpGridItem
             id="fidelity"
             title="Fidelity Investments"
+            role="SDE Summer Intern"
             time="May 2023 - Present"
             thumbnail={thumbFidelityIcon}
           >
-            {'>'} Upcoming SDE Summer Intern at Fidelity Investments
+            <b>{'>'}</b> Upcoming SDE Summer Intern at Fidelity Investments
             <br />
-            {'>'}{' '}
+            <b>{'>'}</b>{' '}
             <Link href="https://www.linkedin.com/posts/siddharthpal20_summerinternship-fidelityinvestments-intern2023-activity-6978247859582234624-XNq0?utm_source=share&utm_medium=member_desktop">
               Link to media
             </Link>
@@ -34,18 +35,22 @@ const Experience = () => (
         <Section delay={0.1}>
           <ExpGridItem
             id="protal"
-            title="App Developer"
+            title="Protal"
+            role="App Developer"
             time="July 2021 - Feb 2022"
             thumbnail={thumbProtalIcon}
           >
-            {'>'} Co-led the App Development Project at Protal in React Native
-            for 6 months.
+            <b>
+              <b>{'>'}</b>
+            </b>{' '}
+            Co-led the App Development Project at Protal in React Native for 6
+            months.
             <br />
-            {'>'} Learned to work in a team of developers and to build and
-            deploy a full stack app while integrating front-end with back-end
-            and other services.
+            <b>{'>'}</b> Learned to work in a team of developers and to build
+            and deploy a full stack app while integrating front-end with
+            back-end and other services.
             <br />
-            {'>'}{' '}
+            <b>{'>'}</b>{' '}
             <Link href="https://www.linkedin.com/in/siddharthpal20/overlay/1635503235841/single-media-viewer/?profileId=ACoAADOzlj4BIjboGGKDJTtoAi5JaoiaFT5MbwM">
               Link to media
             </Link>
@@ -61,22 +66,25 @@ const Experience = () => (
             id="codechef"
             thumbnail={thumbCodechef}
             time="March 2022 - Present (Uni)"
-            title="CodeChef-VIT Member"
+            title="CodeChef-VIT"
+            role="Member"
           >
-            {'>'} Member of CodeChef-VIT student chapter at VIT Vellore
+            <b>{'>'}</b> Member of CodeChef-VIT student chapter at VIT Vellore
           </ExpGridItem>
         </Section>
         <Section delay={0.1}>
           <ExpGridItem
             id="byte"
             thumbnail={thumbByte}
-            time="March 2022 - Present (School)"
-            title="The Byte Knights President"
+            time="April 2019 - April 2020 (School)"
+            title="The Byte Knights"
+            role="President"
           >
-            {'>'} President of high school tech club The Byte Knights <br />
-            {'>'} Organized Talent Trove 2019 which comprised of around 10 major
-            events with a participation of 500+ students <br />
-            {'>'} Conducted workshops and events related to intriguing
+            <b>{'>'}</b> President of high school tech club The Byte Knights{' '}
+            <br />
+            <b>{'>'}</b> Organized Talent Trove 2019 which comprised of around
+            10 major events with a participation of 500+ students <br />
+            <b>{'>'}</b> Conducted workshops and events related to intriguing
             technologies like Artificial Intelligence
           </ExpGridItem>
         </Section>
