@@ -1,9 +1,5 @@
-
-/node_modules
-/.next/
-.vercel
-/build
-/out/
-/coverage
-logs
+node_modules
+.next/
+dist
+.env
 .log
