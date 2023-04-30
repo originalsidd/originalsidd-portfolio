@@ -13,8 +13,9 @@ const OgDude = () => {
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
   const urlDogGLB =
-    (process.env.NODE_ENV === 'production' ? 'https://originalsidd.com' : '') +
-    '/originalsidd_desk.glb'
+    (process.env.NODE_ENV === 'production'
+      ? 'https://originalsidd-portfolio.vercel.app'
+      : '') + '/originalsidd_desk.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
