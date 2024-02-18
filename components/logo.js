@@ -18,7 +18,7 @@ const LogoBox = styled.span`
   }
   &:hover > svg {
     transform: scale(1.4);
-    color: #f8bf3c;
+    color: #a7d42a;
   }
 `
 

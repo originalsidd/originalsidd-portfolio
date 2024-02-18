@@ -33,8 +33,8 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
-          bg={useColorModeValue('whiteAlpha.800', '#e8af3c')}
-          color={useColorModeValue('#d88f1c', '#300')}
+          bg={useColorModeValue('blackAlpha.800', '#A7D42A')}
+          color={useColorModeValue('#A7D42A', '#300')}
           fontFamily="monospace"
           fontWeight="bold"
           p={3}
@@ -53,8 +53,7 @@ const Page = () => {
               Siddharth Pal
             </Heading>
             <p>
-              Creative Developer (Full-Stack Dev / Competitive Programmer){' '}
-              <i>aka ORIGINALSIDD</i>
+              <i>Also known as ORIGINALSIDD</i>
             </p>
           </Box>
           <Box
@@ -82,25 +81,17 @@ const Page = () => {
             About
           </Heading>
           <Paragraph>
-            I am a full-stack developer based in India currently pursuing
-            Bachelors of Technology in Computer Science Engineering from VIT
-            Vellore. I build stuff with passion for creativity and innovation.
-            The whole process, from ground zero to deployment for production,
-            always excites me, but not more than solving real-life problems with
-            unique ideas and code. I have experience in various fields such as
-            Full Stack Web Development, 3D Web Development, Web Assembly,
-            Machine Learning, Cloud Computing, Competitive Programming and Audio
-            Processing. I post all of my projects on my{' '}
-            <Link
-              as={NextLink}
-              href="https://github.com/originalsidd"
-              passHref
-              target="_blank"
-            >
-              GitHub
-            </Link>
-            . In addition to my love of technology, I have several hobbies that
-            keep me inspired and engaged like{' '}
+            I develop solutions with creativity and innovation. Solving
+            real-life problems with unique ideas and code is as exciting as it
+            gets!
+          </Paragraph>
+          <Paragraph>
+            I have experience in Full Stack Development ranging from MERN based
+            to Java based development, including a bit of Machine Learning and
+            Cloud Computing.
+          </Paragraph>
+          <Paragraph>
+            In my free time, I enjoy engaging in various activities like{' '}
             <Link
               as={NextLink}
               href="https://www.youtube.com/@original-angel"
@@ -109,21 +100,16 @@ const Page = () => {
             >
               music-production,
             </Link>{' '}
-            stargazing, cosmology, origami, photography and traveling. These
-            hobbies help me stay grounded and inspired, giving me fresh
-            perspectives and ideas that I bring to my work.
-          </Paragraph>
-          <Box align="center" my={4}>
-            <Button
+            <Link
               as={NextLink}
-              href="/projects"
-              scroll={false}
-              rightIcon={<ChevronRightIcon />}
-              colorScheme={useColorModeValue('yellow', 'gray')}
+              href="https://codeforces.com/profile/originalsidd"
+              passHref
+              target="_blank"
             >
-              My portfolio
-            </Button>
-          </Box>
+              competitive programming,
+            </Link>{' '}
+            stargazing, and traveling the world.
+          </Paragraph>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
@@ -131,20 +117,21 @@ const Page = () => {
           </Heading>
           <SkillsType>Languages:</SkillsType>
           <SkillsSection>
-            C++, C, Java, Python, JavaScript, Lisp, Rust, Go, Julia, R, SQL,
-            PHP, MQL
+            C++, C, Java, Python, JavaScript, Rust, R, SQL, PHP, MQL
           </SkillsSection>
           <SkillsType>Frameworks:</SkillsType>
           <SkillsSection>
             React.js, React Native, Node.js, Express.js, Three.js, Django,
-            Flask, MySQL, PostgreSQL, MongoDB, Redux, TensorFlow
+            MySQL, PostgreSQL, MongoDB, Redux
           </SkillsSection>
           <SkillsType>Tools:</SkillsType>
           <SkillsSection>
-            GIT, Expo, Anaconda, Postman, Docker, Tableau, Shiny, Grafana
+            GIT, Expo, Postman, Docker, Tableau, Power BI, Grafana
           </SkillsSection>
           <SkillsType>Platforms:</SkillsType>
-          <SkillsSection>Web, Windows, Android, Linux, Arduino</SkillsSection>
+          <SkillsSection>
+            Web, Windows, Mac OS, Android, Linux, Arduino
+          </SkillsSection>
           <SkillsType>Clouds:</SkillsType>
           <SkillsSection>AWS, GCP, Firebase</SkillsSection>
           <SkillsType>Soft Skills:</SkillsType>
@@ -162,7 +149,7 @@ const Page = () => {
             B.Tech Computer Science with spec. in Data Science
             <div />
             <i>Vellore Institute of Technology, Vellore, India</i> <div />
-            Grade: 8.89 CGPA
+            Grade: 8.96 CGPA
           </SkillsSection>
           <SkillsType>2018-2020</SkillsType>
           <SkillsSection>
