@@ -26,7 +26,7 @@ import { useState } from 'react'
 
 const Page = () => {
   const [hack, setHack] = useState(
-    `Hello, I'm a full-stack developer based in India!`
+    `Hello :) I'm a software developer based in India!`
   )
   return (
     <Layout>
@@ -225,8 +225,7 @@ const Page = () => {
             Contact Me
           </Heading>
           <p>
-            Send feedback about my projects or ask out for any tech tips or
-            collab!
+            Send feedback about my projects or ask out for any tech tips!
           </p>
 
           <Box align="center" my={4}>

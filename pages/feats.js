@@ -9,9 +9,23 @@ const Feat = () => (
       <Heading as="h3" variant="section-title" mb={4}>
         Achievements
       </Heading>
-
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 1, 1]} gap={6} mb={8}>
+          <FeatGridItem
+            title="Capstone Winner"
+            href="https://www.linkedin.com/posts/siddharthpal20_capstonesuccess-teamachievement-innovation-activity-7162445839720730625-0MtR?utm_source=share&utm_medium=member_desktop"
+            time="Jan 2024"
+          >
+            2nd Prize Winner at LDP Induction Capstone organised by ION Group
+            2024
+          </FeatGridItem>
+          <FeatGridItem
+            title="Codeathon Winner"
+            href="https://www.linkedin.com/posts/siddharthpal20"
+            time="July 2023"
+          >
+            2nd Prize Winner at Codeathon organised by Fidelity Investments 2023
+          </FeatGridItem>
           <FeatGridItem
             title="Make-A-Thon Winner"
             href="https://www.linkedin.com/posts/siddharthpal20_hackathon-innovation-winningteam-activity-7047914272659550208-VNI6?utm_source=share&utm_medium=member_desktop"

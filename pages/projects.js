@@ -34,7 +34,7 @@ const Projects = () => (
         </Section>
         <Section>
           <WorkGridItem id="hidden" title="Hidden" thumbnail={thumbHidden}>
-            Hackathon Winning🥇 "HIDDEN" is an AI-powered assistive technology
+            Hackathon Winning 🥇 "HIDDEN" is an AI-powered assistive technology
             to help people with disabilities
           </WorkGridItem>
         </Section>
@@ -42,7 +42,7 @@ const Projects = () => (
         <Section delay={0.1}>
           <WorkGridItem id="weather" thumbnail={thumbEarth} title="Weather 3D">
             Weather App with live 3d Earth and weather information around the
-            globe🌏
+            globe 🌏
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -52,7 +52,7 @@ const Projects = () => (
             thumbnail={thumbCube}
           >
             Rubiks Cube Three JS is the Three JS 3D implementation of Magic
-            Cube⏹️ using a unique approach.
+            Cube ⏹️ using a unique approach.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -71,7 +71,7 @@ const Projects = () => (
             title="Shuttle Tracker"
           >
             Track Shuttles inside your campus with ease! Say goodbye to GPS and
-            hello to sensors🥳
+            hello to sensors 🥳
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
@@ -82,13 +82,13 @@ const Projects = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="locachat" thumbnail={thumbLoca} title="LocaChat">
-            A location-based chat-app📲 to share important information to nearby
+            A location-based chat-app 📲 to share important information to nearby
             users anonymously
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="notes" thumbnail={thumbNotes} title="Notes App">
-            An online notes📝app made with React on frontend and Django on
+            An online notes 📝 app made with React on frontend and Django on
             backend!
           </WorkGridItem>
         </Section>
@@ -97,13 +97,13 @@ const Projects = () => (
         <Divider my={6} />
 
         <Heading as="h3" variant="section-title" mb={4}>
-          Old Projects
+          First Projects
         </Heading>
       </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="smart" thumbnail={thumbSmart} title="Smart Brain">
-            My first full stack practice project🧠 made with React, Node and
+            My first full stack practice project 🧠 made with React, Node and
             PostgreSQL
           </WorkGridItem>
         </Section>
@@ -113,27 +113,11 @@ const Projects = () => (
             thumbnail={thumbWeb}
             title="Old Portfolio"
           >
-            My previous and first personal portfolio! Last updated more than a
-            year ago😲
+            My first personal portfolio website! 🤠
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" variant="section-title" fontSize={20} mb={4}>
-          Portfolio Project
-        </Heading>
-      </Section>
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="portfolio" thumbnail={thumbPort} title="Portfolio">
-            My portfolio website showcasing my skills, projects, experience and
-            achievements.
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-      <Section delay={0.4}>
+      {/* <Section delay={0.4}>
         <Divider my={6} />
         <Heading as="h3" variant="section-title" mb={4}>
           Under Development
@@ -148,7 +132,7 @@ const Projects = () => (
           <b>Audogic: </b> Building online audio processor with seamless and
           fast computation
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )

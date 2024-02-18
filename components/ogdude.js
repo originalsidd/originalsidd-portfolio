@@ -84,6 +84,7 @@ const OgDude = () => {
 
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
+      controls.enableZoom = false
       controls.target = target
 
       loadGLTFModel(scene, urlDogGLB, {

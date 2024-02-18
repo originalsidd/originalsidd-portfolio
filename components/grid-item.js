@@ -53,7 +53,6 @@ export const ExpGridItem = ({ children, title, time, thumbnail, role }) => (
         src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
-        placeholder="blur"
         height={120}
       />
     </Box>
