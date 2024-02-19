@@ -13,7 +13,6 @@ import thumbLoca from '../public/images/projects/loca.png'
 import thumbNotes from '../public/images/projects/notes.png'
 import thumbSmart from '../public/images/projects/smart.png'
 import thumbWeb from '../public/images/projects/oldweb.png'
-import thumbPort from '../public/images/projects/port0.png'
 
 const Projects = () => (
   <Layout title="Projects">
