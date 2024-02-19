@@ -87,7 +87,7 @@ const Navbar = props => {
             Feats
           </LinkItem>
           <LinkItem
-            href="https://drive.google.com/file/d/1f7PSJujrm3nUjtIw7fDPpMMUVQh4Tbq8/view"
+            href="https://drive.google.com/drive/folders/1YWLcDLVj2mn59ePGkvWh8sfNevpGEoSn?usp=share_link"
             path={path}
             target="_blank"
           >

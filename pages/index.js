@@ -234,7 +234,7 @@ const Page = () => {
               href="mailto: originalsidd@gmail.com"
               scroll={false}
               leftIcon={<EmailIcon />}
-              colorScheme={useColorModeValue('yellow', 'gray')}
+              colorScheme={useColorModeValue('green', 'gray')}
             >
               Mail Me
             </Button>
