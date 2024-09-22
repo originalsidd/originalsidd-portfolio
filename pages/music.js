@@ -29,7 +29,7 @@ const Music = () => (
           <b> {'Angel - My Music Channel'}</b>
         </Text>
         <Text fontSize={16} textAlign={'center'}>
-          I have a strong knack for music production. I have been persuing this
+          I have a strong knack for music production. I have been pursuing this
           as my major hobby since the summer of 2018. Currently I produce electronic music using Logic
           Pro, previously FL Studio.
         </Text>

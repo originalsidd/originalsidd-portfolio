@@ -17,7 +17,8 @@ const Feat = () => (
             href="https://www.linkedin.com/posts/siddharthpal20_capstonesuccess-teamachievement-innovation-activity-7162445839720730625-0MtR?utm_source=share&utm_medium=member_desktop"
             time="Jan 2024"
           >
-            2nd Prize Winner at LDP Induction Capstone organised by ION Group 2024
+            2nd Prize Winner at LDP Induction Capstone organised by ION Group
+            2024
           </FeatGridItem>
           <FeatGridItem
             underline
@@ -65,15 +66,22 @@ const Feat = () => (
             underline
             time="November 2023"
             href="https://ieeexplore.ieee.org/document/10420878"
-          ></FeatGridItem>
-          <FeatGridItem
-            title="SOAR-ML: Synthetic Optimization and Augmentation for Robust Machine Learning in Oral Cancer Prediction"
-            isNotLink
-            underline
-            time="December 2023"
           >
             <i>
-              This paper has been accepted in IBIMA conference and awaiting publication.
+              Accepted for presentation at the 2023 Second International
+              Conference on Informatics (ICI) and published in IEEE Xplore.
+            </i>
+          </FeatGridItem>
+          <FeatGridItem
+            title="SOAR-ML: Synthetic Optimization and Augmentation for Robust Machine Learning in Oral Cancer Prediction"
+            underline
+            time="December 2023"
+            href="https://ibima.org/accepted-paper/soar-ml-synthetic-optimization-and-augmentation-for-robust-machine-learning-in-oral-cancer-prediction/"
+          >
+            <i>
+              Accepted for presentation at the 42nd IBIMA Conference. The paper
+              is under final review for publication in Springer ISEM book
+              series.
             </i>
           </FeatGridItem>
           <FeatGridItem
