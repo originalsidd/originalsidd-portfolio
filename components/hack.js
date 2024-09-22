@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 const HackText = props => {
-  const letters = 'abcdefghijklmnopqrstuvwxyz'
+  const letters = 'abcdefghijklmnopqrstuvwxyz '
 
   useEffect(() => {
     let iteration = 0

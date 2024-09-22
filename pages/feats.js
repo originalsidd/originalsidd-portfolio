@@ -52,16 +52,6 @@ const Feat = () => (
             Shortlisted in waitlist for Smart India Hackathon 2022 organised by
             the Government of India
           </FeatGridItem>
-          <FeatGridItem
-            title="NPSC Work"
-            href={null}
-            time="March 2020"
-            isNotLink
-          >
-            Worked on a Multi-Media Presentation that was staged at the Annual
-            National Progressive Schools Conference at the India International
-            Centre, Lodhi Road, New Delhi.
-          </FeatGridItem>
         </SimpleGrid>
       </Section>
 

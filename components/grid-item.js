@@ -58,17 +58,17 @@ export const ExpGridItem = ({ children, title, time, thumbnail, role }) => (
     </Box>
     <Box w="100%" display="flex" flexDirection="column" ml={5}>
       <Box display="flex" flexDirection="column" w="100%">
-        <Text fontWeight="bold" fontSize={20} lineHeight={1}>
+        <Text fontWeight="bold" fontSize={24} lineHeight={1}>
           {title}
         </Text>
-        <Text fontWeight="medium" fontSize={18}>
+        <Text fontWeight="medium" fontSize={20}>
           {role}
         </Text>
-        <Text fontSize={14} fontStyle="italic">
+        <Text fontSize={16} fontStyle="italic">
           {time}
         </Text>
       </Box>
-      <Text fontSize={14}>{children}</Text>
+      <Text fontSize={16} style={{lineHeight:1.7}}>{children}</Text>
     </Box>
   </Box>
 )

@@ -80,14 +80,14 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="/experience" path={path}>
-            Experience
-          </LinkItem>
           <LinkItem href="/feats" path={path}>
             Feats
           </LinkItem>
+          <LinkItem href="/music" path={path}>
+            Music
+          </LinkItem>
           <LinkItem
-            href="https://drive.google.com/drive/folders/1YWLcDLVj2mn59ePGkvWh8sfNevpGEoSn?usp=share_link"
+            href="https://drive.google.com/file/d/164WdrN0PBsFLvJMObf40Hqz5ogt2kG1N/view?usp=sharing"
             path={path}
             target="_blank"
           >
@@ -125,15 +125,15 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/projects">
                   Projects
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/experience">
-                  Experience
-                </MenuItem>
                 <MenuItem as={MenuLink} href="/feats">
                   Feats
                 </MenuItem>
+                <MenuItem as={MenuLink} href="/music">
+                  Music
+                </MenuItem>
                 <MenuItem
                   as={MenuLink}
-                  href="https://drive.google.com/file/d/1f7PSJujrm3nUjtIw7fDPpMMUVQh4Tbq8/view"
+                  href="https://drive.google.com/file/d/164WdrN0PBsFLvJMObf40Hqz5ogt2kG1N/view?usp=sharing"
                 >
                   Resume
                 </MenuItem>

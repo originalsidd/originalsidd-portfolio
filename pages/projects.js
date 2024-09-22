@@ -11,14 +11,12 @@ import thumbShuttle from '../public/images/projects/shuttle.png'
 import thumbEvent from '../public/images/projects/event.png'
 import thumbLoca from '../public/images/projects/loca.png'
 import thumbNotes from '../public/images/projects/notes.png'
-import thumbSmart from '../public/images/projects/smart.png'
-import thumbWeb from '../public/images/projects/oldweb.png'
 
 const Projects = () => (
   <Layout title="Projects">
     <Container>
       <Heading as="h3" variant="section-title" mb={4}>
-        Recent Projects
+        2024 Projects
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
@@ -59,7 +57,7 @@ const Projects = () => (
         <Divider my={6} />
 
         <Heading as="h3" variant="section-title" mb={4}>
-          Projects
+          2023 Projects
         </Heading>
       </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -92,46 +90,6 @@ const Projects = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" variant="section-title" mb={4}>
-          First Projects
-        </Heading>
-      </Section>
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="smart" thumbnail={thumbSmart} title="Smart Brain">
-            My first full stack practice project 🧠 made with React, Node and
-            PostgreSQL
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="oldwebsite"
-            thumbnail={thumbWeb}
-            title="Old Portfolio"
-          >
-            My first personal portfolio website! 🤠
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-      {/* <Section delay={0.4}>
-        <Divider my={6} />
-        <Heading as="h3" variant="section-title" mb={4}>
-          Under Development
-        </Heading>
-      </Section>
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <b>Quiz Game:</b> Building with React Native and 2 popular backend
-          frameworks to compare performance
-        </Section>
-        <Section delay={0.5}>
-          <b>Audogic: </b> Building online audio processor with seamless and
-          fast computation
-        </Section>
-      </SimpleGrid> */}
     </Container>
   </Layout>
 )
