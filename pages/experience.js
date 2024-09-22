@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
+import { Heading, SimpleGrid, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { ExpGridItem } from '../components/grid-item'
@@ -7,8 +7,6 @@ import thumbIonIcon from '../public/images/projects/ion.gif'
 import thumbHeliverseIcon from '../public/images/projects/heliverse.jpeg'
 import thumbFidelityIcon from '../public/images/projects/fidelity.png'
 import thumbProtalIcon from '../public/images/projects/protal.jpeg'
-import thumbCodechef from '../public/images/projects/codechef.jpg'
-import thumbByte from '../public/images/projects/byte.jpg'
 
 const Experience = () => (
   <Layout title="Experience">

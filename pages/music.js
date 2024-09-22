@@ -1,7 +1,6 @@
-import { Container, Heading, SimpleGrid, Text, Link } from '@chakra-ui/react'
+import { Heading, Text, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
 import thumbAngel from '../public/images/ytangel.png'
 import Image from 'next/image'
 import NextLink from 'next/link'

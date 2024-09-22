@@ -1,7 +1,6 @@
 import NextLink from 'next/link'
 import {
   Button,
-  Container,
   Box,
   Heading,
   Image,
